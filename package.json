@@ -1,0 +1,20 @@
+{
+  "name": "authentication",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Andrew Mamdouh",
+  "keywords": [],
+  "license": "ISC",
+  "private": true,
+  "scripts": {
+    "frontend:init": "yarn workspace authentication-client install",
+    "frontend:dev": "yarn workspace authentication-client run dev",
+    "frontend:build": "yarn workspace authentication-client run build",
+    "frontend:start": "yarn workspace authentication-client run start",
+    "backend:init": "yarn workspace authentication-server install",
+    "backend:dev": "yarn workspace authentication-server run dev",
+    "backend:build": "yarn workspace authentication-server run build",
+    "backend:start": "yarn workspace authentication-server run start"
+  },
+  "workspaces": ["apps/*"]
+}
